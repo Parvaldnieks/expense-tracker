@@ -20,7 +20,7 @@
             @foreach ($expenses as $expense)
                 <tr>
                     <td>{{ $expense->amount }}</td>
-                    <td>{{ $expense->date }}</td>
+                    <td>{{ $expense->spent_at }}</td>
                     <td>{{ $expense->category->name }}</td>
                     <td>{{ $expense->notes }}</td>
                 </tr>
